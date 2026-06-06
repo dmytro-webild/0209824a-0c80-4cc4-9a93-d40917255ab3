@@ -12,7 +12,7 @@ import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
 import TextAbout from '@/components/sections/about/TextAbout';
-import { Fish, Headphones, Leaf, Map, Sparkles, Kayak, Sailboat, Lotus, Bird } from "lucide-react";
+import { Fish, Headphones, Leaf, Map, Sparkles, Kayak, Sailboat, Bird, Flower2 } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -133,7 +133,7 @@ export default function LandingPage() {
             imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-asian-woman-relax-smile-leisure-around-outdoor-swimming-pool-nearly-sea_74190-14048.jpg",            imageAlt: "Woman practicing yoga on a beach at sunset"},
           items: [
             {
-              icon: Lotus,
+              icon: Flower2,
               text: "Beachside Yoga"},
             {
               icon: Sparkles,
