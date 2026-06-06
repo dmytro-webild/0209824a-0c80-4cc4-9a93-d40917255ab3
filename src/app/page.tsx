@@ -67,14 +67,14 @@ export default function LandingPage() {
           handle: "@sophia_travels",
           testimonial: "An unparalleled escape! The Lagoon truly is a hidden gem. Every moment felt like a dream.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-summer-hat-walking-city_231208-4536.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-summer-hat-walking-city_231208-4536.jpg?_wi=1",
         },
         {
           name: "Mark D.",
           handle: "@mark_adventure",
           testimonial: "The perfect blend of adventure and relaxation. I can't wait to return to this paradise.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-young-man-close-up-street_1321-25.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-young-man-close-up-street_1321-25.jpg?_wi=1",
         },
         {
           name: "Elena P.",
@@ -131,7 +131,7 @@ export default function LandingPage() {
         },
       ]}
       avatarText="Join over 1000 happy visitors"
-      imageSrc="http://img.b2bpic.net/free-photo/nice-sunset-scene-beach_1048-5304.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/nice-sunset-scene-beach_1048-5304.jpg?_wi=1"
       imageAlt="Aerial view of a serene blue-green lagoon"
       showBlur={true}
       textPosition="bottom"
@@ -181,7 +181,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/nice-sunset-scene-beach_1048-5304.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/nice-sunset-scene-beach_1048-5304.jpg?_wi=2",
           imageAlt: "kayaking in clear lagoon water",
         },
         {
@@ -206,7 +206,7 @@ export default function LandingPage() {
             },
           ],
           reverse: true,
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-summer-hat-walking-city_231208-4536.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-summer-hat-walking-city_231208-4536.jpg?_wi=2",
           imageAlt: "kayaking in clear lagoon water",
         },
         {
@@ -231,7 +231,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-young-man-close-up-street_1321-25.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-young-man-close-up-street_1321-25.jpg?_wi=2",
           imageAlt: "kayaking in clear lagoon water",
         },
       ]}
@@ -289,7 +289,7 @@ export default function LandingPage() {
           name: "Secluded Sands",
           price: "Relax",
           imageAlt: "White sand beach with palm trees",
-          imageSrc: "http://img.b2bpic.net/free-photo/nice-sunset-scene-beach_1048-5304.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/nice-sunset-scene-beach_1048-5304.jpg?_wi=3",
         },
       ]}
       title="Visual Journey Through Paradise"
