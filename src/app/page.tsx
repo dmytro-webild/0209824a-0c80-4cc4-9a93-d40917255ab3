@@ -12,7 +12,7 @@ import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
 import TextAbout from '@/components/sections/about/TextAbout';
-import { Fish, Headphones, Leaf, Map, Sparkles, Kayak, Sailboat, Bird, Flower2 } from "lucide-react";
+import { Fish, Headphones, Leaf, Map, Sparkles, Kayak, Sailboat, Bird, Flower2, Utensils } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -32,16 +32,17 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleCentered
       navItems={[
-        {
-          name: "Home",          id: "#home"},
-        {
-          name: "About",          id: "#about"},
-        {
-          name: "Gallery",          id: "#gallery"},
-        {
-          name: "Activities",          id: "#activities"},
-        {
-          name: "Contact",          id: "#contact"},
+        { name: "Overview", id: "#home" },
+        { name: "Menu", id: "#menu" },
+        { name: "Reviews", id: "#testimonials" },
+        { name: "Photos", id: "#gallery" },
+        { name: "About", id: "#about" },
+        { name: "Activities", id: "#activities" },
+        { name: "Contact", id: "#contact" },
+        { name: "Directions", id: "#directions" },
+        { name: "Share", id: "#share" },
+        { name: "WhatsApp", id: "#whatsapp" },
+        { name: "Save", id: "#save" }
       ]}
       brandName="The Lagoon"
     />
@@ -50,7 +51,7 @@ export default function LandingPage() {
   <div id="home" data-section="home">
       <HeroOverlayTestimonial
       title="Discover The Lagoon's Serenity"
-      description="Immerse yourself in breathtaking natural beauty and tranquil experiences that rejuvenate mind, body, and soul."
+      description="Immerse yourself in breathtaking natural beauty and tranquil experiences that rejuvenate mind, body, and soul. Enjoy our exquisite offerings with a price range of ₦20,000–25,000."
       testimonials={[
         {
           name: "Sophia R.",          handle: "@sophia_travels",          testimonial: "An unparalleled escape! The Lagoon truly is a hidden gem. Every moment felt like a dream.",          rating: 5,
@@ -86,11 +87,12 @@ export default function LandingPage() {
         {
           src: "http://img.b2bpic.net/free-photo/happy-handsome-man-posing_23-2148911846.jpg",          alt: "Liam S."},
       ]}
-      avatarText="Join over 1000 happy visitors"
+      avatarText="4.2 rating from 2.7K reviews"
       imageSrc="http://img.b2bpic.net/free-photo/nice-sunset-scene-beach_1048-5304.jpg?_wi=1"
       imageAlt="Aerial view of a serene blue-green lagoon"
       showBlur={true}
       textPosition="bottom"
+      tag="Open Restaurant"
     />
   </div>
 
@@ -159,6 +161,18 @@ export default function LandingPage() {
               text: "Island Excursions"},
           ],
           reverse: false,
+        },
+        {
+          title: "Culinary Delights",          description: "Savor a diverse menu crafted to delight your palate. Enjoy refreshing drinks and unique dining experiences.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/assorted-milkshake-glasses-straws_23-2147775586.jpg",            imageAlt: "Assortment of smoothies and food"
+          },
+          items: [
+            { icon: Sparkles, text: "Smoothies" },
+            { icon: Utensils, text: "All you can eat" },
+            { icon: Sparkles, text: "Happy-hour food" },
+            { icon: Utensils, text: "Private dining room" }
+          ],
+          reverse: true,
         },
       ]}
       title="Your Gateway to Unforgettable Moments"
