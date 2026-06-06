@@ -87,7 +87,7 @@ export default function LandingPage() {
           src: "http://img.b2bpic.net/free-photo/happy-handsome-man-posing_23-2148911846.jpg",          alt: "Liam S."},
       ]}
       avatarText="Join over 1000 happy visitors"
-      imageSrc="http://img.b2bpic.net/free-photo/nice-sunset-scene-beach_1048-5304.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/nice-sunset-scene-beach_1048-5304.jpg?_wi=1"
       imageAlt="Aerial view of a serene blue-green lagoon"
       showBlur={true}
       textPosition="bottom"
@@ -186,7 +186,7 @@ export default function LandingPage() {
         {
           id: "g5",          name: "Lush Greenery",          price: "Connect",          imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-green-plants-growing-forest_181624-28505.jpg",          imageAlt: "Dense tropical jungle foliage"},
         {
-          id: "g6",          name: "Secluded Sands",          price: "Relax",          imageAlt: "White sand beach with palm trees",          imageSrc: "http://img.b2bpic.net/free-photo/nice-sunset-scene-beach_1048-5304.jpg"},
+          id: "g6",          name: "Secluded Sands",          price: "Relax",          imageAlt: "White sand beach with palm trees",          imageSrc: "http://img.b2bpic.net/free-photo/nice-sunset-scene-beach_1048-5304.jpg?_wi=2"},
       ]}
       title="Visual Journey Through Paradise"
       description="Capturing the captivating moments, vibrant hues, and serene vistas that define The Lagoon. Each image tells a story of unparalleled natural splendor, inviting you to dream of your next escape."
